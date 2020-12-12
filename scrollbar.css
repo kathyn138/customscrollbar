@@ -6,7 +6,8 @@
 }
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    width: 5px;
+	width: 5px;
+	height: 15px;
 	background: rgb(147, 147, 147);
 }
 ::-webkit-scrollbar-thumb:hover{
