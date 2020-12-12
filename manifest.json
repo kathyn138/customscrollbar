@@ -1,0 +1,11 @@
+{
+    "name": "Scrollbar",
+    "version": "1.0",
+    "description": "Custom scrollbar",
+    "content_scripts": [ {
+        "all_frames": true,
+        "css": [ "scrollbar.css" ],
+        "matches": [ "\u003Call_urls>" ]
+     } ],
+    "manifest_version": 2
+  }
